@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CE57C8D1E79BCDF00493337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE57C8C1E79BCDF00493337 /* AppDelegate.swift */; };
+		3CE57C8F1E79BCDF00493337 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE57C8E1E79BCDF00493337 /* FirstViewController.swift */; };
+		3CE57C911E79BCDF00493337 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE57C901E79BCDF00493337 /* SecondViewController.swift */; };
+		3CE57C941E79BCDF00493337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE57C921E79BCDF00493337 /* Main.storyboard */; };
+		3CE57C961E79BCDF00493337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE57C951E79BCDF00493337 /* Assets.xcassets */; };
+		3CE57C991E79BCDF00493337 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE57C971E79BCDF00493337 /* LaunchScreen.storyboard */; };
+		3CE57CA41E79BCE000493337 /* DealMateIosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE57CA31E79BCE000493337 /* DealMateIosTests.swift */; };
+		3CE57CAF1E79BCE000493337 /* DealMateIosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE57CAE1E79BCE000493337 /* DealMateIosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CE57CA01E79BCE000493337 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CE57C811E79BCDF00493337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CE57C881E79BCDF00493337;
+			remoteInfo = DealMateIos;
+		};
+		3CE57CAB1E79BCE000493337 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CE57C811E79BCDF00493337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CE57C881E79BCDF00493337;
+			remoteInfo = DealMateIos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CE57C891E79BCDF00493337 /* DealMateIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DealMateIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CE57C8C1E79BCDF00493337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CE57C8E1E79BCDF00493337 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		3CE57C901E79BCDF00493337 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3CE57C931E79BCDF00493337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CE57C951E79BCDF00493337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CE57C981E79BCDF00493337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CE57C9A1E79BCDF00493337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CE57C9F1E79BCE000493337 /* DealMateIosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DealMateIosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CE57CA31E79BCE000493337 /* DealMateIosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealMateIosTests.swift; sourceTree = "<group>"; };
+		3CE57CA51E79BCE000493337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CE57CAA1E79BCE000493337 /* DealMateIosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DealMateIosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CE57CAE1E79BCE000493337 /* DealMateIosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealMateIosUITests.swift; sourceTree = "<group>"; };
+		3CE57CB01E79BCE000493337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CE57C861E79BCDF00493337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE57C9C1E79BCE000493337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE57CA71E79BCE000493337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CE57C801E79BCDF00493337 = {
+			isa = PBXGroup;
+			children = (
+				3CE57C8B1E79BCDF00493337 /* DealMateIos */,
+				3CE57CA21E79BCE000493337 /* DealMateIosTests */,
+				3CE57CAD1E79BCE000493337 /* DealMateIosUITests */,
+				3CE57C8A1E79BCDF00493337 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CE57C8A1E79BCDF00493337 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CE57C891E79BCDF00493337 /* DealMateIos.app */,
+				3CE57C9F1E79BCE000493337 /* DealMateIosTests.xctest */,
+				3CE57CAA1E79BCE000493337 /* DealMateIosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CE57C8B1E79BCDF00493337 /* DealMateIos */ = {
+			isa = PBXGroup;
+			children = (
+				3CE57C8C1E79BCDF00493337 /* AppDelegate.swift */,
+				3CE57C8E1E79BCDF00493337 /* FirstViewController.swift */,
+				3CE57C901E79BCDF00493337 /* SecondViewController.swift */,
+				3CE57C921E79BCDF00493337 /* Main.storyboard */,
+				3CE57C951E79BCDF00493337 /* Assets.xcassets */,
+				3CE57C971E79BCDF00493337 /* LaunchScreen.storyboard */,
+				3CE57C9A1E79BCDF00493337 /* Info.plist */,
+			);
+			path = DealMateIos;
+			sourceTree = "<group>";
+		};
+		3CE57CA21E79BCE000493337 /* DealMateIosTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CE57CA31E79BCE000493337 /* DealMateIosTests.swift */,
+				3CE57CA51E79BCE000493337 /* Info.plist */,
+			);
+			path = DealMateIosTests;
+			sourceTree = "<group>";
+		};
+		3CE57CAD1E79BCE000493337 /* DealMateIosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CE57CAE1E79BCE000493337 /* DealMateIosUITests.swift */,
+				3CE57CB01E79BCE000493337 /* Info.plist */,
+			);
+			path = DealMateIosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CE57C881E79BCDF00493337 /* DealMateIos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CE57CB31E79BCE000493337 /* Build configuration list for PBXNativeTarget "DealMateIos" */;
+			buildPhases = (
+				3CE57C851E79BCDF00493337 /* Sources */,
+				3CE57C861E79BCDF00493337 /* Frameworks */,
+				3CE57C871E79BCDF00493337 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DealMateIos;
+			productName = DealMateIos;
+			productReference = 3CE57C891E79BCDF00493337 /* DealMateIos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CE57C9E1E79BCE000493337 /* DealMateIosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CE57CB61E79BCE000493337 /* Build configuration list for PBXNativeTarget "DealMateIosTests" */;
+			buildPhases = (
+				3CE57C9B1E79BCE000493337 /* Sources */,
+				3CE57C9C1E79BCE000493337 /* Frameworks */,
+				3CE57C9D1E79BCE000493337 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CE57CA11E79BCE000493337 /* PBXTargetDependency */,
+			);
+			name = DealMateIosTests;
+			productName = DealMateIosTests;
+			productReference = 3CE57C9F1E79BCE000493337 /* DealMateIosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CE57CA91E79BCE000493337 /* DealMateIosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CE57CB91E79BCE000493337 /* Build configuration list for PBXNativeTarget "DealMateIosUITests" */;
+			buildPhases = (
+				3CE57CA61E79BCE000493337 /* Sources */,
+				3CE57CA71E79BCE000493337 /* Frameworks */,
+				3CE57CA81E79BCE000493337 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CE57CAC1E79BCE000493337 /* PBXTargetDependency */,
+			);
+			name = DealMateIosUITests;
+			productName = DealMateIosUITests;
+			productReference = 3CE57CAA1E79BCE000493337 /* DealMateIosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CE57C811E79BCDF00493337 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = qixiaohui;
+				TargetAttributes = {
+					3CE57C881E79BCDF00493337 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					3CE57C9E1E79BCE000493337 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3CE57C881E79BCDF00493337;
+					};
+					3CE57CA91E79BCE000493337 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3CE57C881E79BCDF00493337;
+					};
+				};
+			};
+			buildConfigurationList = 3CE57C841E79BCDF00493337 /* Build configuration list for PBXProject "DealMateIos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CE57C801E79BCDF00493337;
+			productRefGroup = 3CE57C8A1E79BCDF00493337 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CE57C881E79BCDF00493337 /* DealMateIos */,
+				3CE57C9E1E79BCE000493337 /* DealMateIosTests */,
+				3CE57CA91E79BCE000493337 /* DealMateIosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CE57C871E79BCDF00493337 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE57C991E79BCDF00493337 /* LaunchScreen.storyboard in Resources */,
+				3CE57C961E79BCDF00493337 /* Assets.xcassets in Resources */,
+				3CE57C941E79BCDF00493337 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE57C9D1E79BCE000493337 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE57CA81E79BCE000493337 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CE57C851E79BCDF00493337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE57C911E79BCDF00493337 /* SecondViewController.swift in Sources */,
+				3CE57C8D1E79BCDF00493337 /* AppDelegate.swift in Sources */,
+				3CE57C8F1E79BCDF00493337 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE57C9B1E79BCE000493337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE57CA41E79BCE000493337 /* DealMateIosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE57CA61E79BCE000493337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE57CAF1E79BCE000493337 /* DealMateIosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CE57CA11E79BCE000493337 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CE57C881E79BCDF00493337 /* DealMateIos */;
+			targetProxy = 3CE57CA01E79BCE000493337 /* PBXContainerItemProxy */;
+		};
+		3CE57CAC1E79BCE000493337 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CE57C881E79BCDF00493337 /* DealMateIos */;
+			targetProxy = 3CE57CAB1E79BCE000493337 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CE57C921E79BCDF00493337 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CE57C931E79BCDF00493337 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CE57C971E79BCDF00493337 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CE57C981E79BCDF00493337 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CE57CB11E79BCE000493337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CE57CB21E79BCE000493337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CE57CB41E79BCE000493337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DealMateIos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qixiaohui.DealMateIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3CE57CB51E79BCE000493337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DealMateIos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qixiaohui.DealMateIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3CE57CB71E79BCE000493337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DealMateIosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qixiaohui.DealMateIosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DealMateIos.app/DealMateIos";
+			};
+			name = Debug;
+		};
+		3CE57CB81E79BCE000493337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DealMateIosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qixiaohui.DealMateIosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DealMateIos.app/DealMateIos";
+			};
+			name = Release;
+		};
+		3CE57CBA1E79BCE000493337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DealMateIosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qixiaohui.DealMateIosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DealMateIos;
+			};
+			name = Debug;
+		};
+		3CE57CBB1E79BCE000493337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DealMateIosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qixiaohui.DealMateIosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DealMateIos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CE57C841E79BCDF00493337 /* Build configuration list for PBXProject "DealMateIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE57CB11E79BCE000493337 /* Debug */,
+				3CE57CB21E79BCE000493337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CE57CB31E79BCE000493337 /* Build configuration list for PBXNativeTarget "DealMateIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE57CB41E79BCE000493337 /* Debug */,
+				3CE57CB51E79BCE000493337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CE57CB61E79BCE000493337 /* Build configuration list for PBXNativeTarget "DealMateIosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE57CB71E79BCE000493337 /* Debug */,
+				3CE57CB81E79BCE000493337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CE57CB91E79BCE000493337 /* Build configuration list for PBXNativeTarget "DealMateIosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE57CBA1E79BCE000493337 /* Debug */,
+				3CE57CBB1E79BCE000493337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CE57C811E79BCDF00493337 /* Project object */;
+}
