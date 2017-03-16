@@ -15,36 +15,39 @@ class DealCategoryController: UIViewController, UITableViewDelegate, UITableView
     
     var currentIndex: Int = 0
     
-    let categoryList: [String] = ["laptops-ultrabooks",
-                                  "desktops",
-                                  "accessories-add-ons",
-                                  "monitors", "" +
-                                  "networking-servers",
-                                  "software",
-                                  "printers",
-                                  "hdtvs-home-theater",
-                                  "cameras-camcorders",
-                                  "speakers-headphones",
-                                  "accessories-apps",
-                                  "tablets",
-                                  "unlocked-phones",
-                                  "games",
-                                  "hardware",
-                                  "accessories-watches",
-                                  "automotive",
-                                  "clothing-shoes",
-                                  "entertainment",
-                                  "gadgets-novelty",
-                                  "health-fitness",
-                                  "home-outdoors",
-                                  "home-improvement-tools-garden"]
+    let categoryList: [String] = ["computers/laptops-ultrabooks",
+                                  "computers/desktops",
+                                  "computers/accessories-add-ons",
+                                  "computers/monitors",
+                                  "computers/networking-servers",
+                                  "computers/software",
+                                  "computers/printers",
+                                  "electronics/hdtvs-home-theater",
+                                  "electronics/cameras-camcorders",
+                                  "electronics/speakers-headphones",
+                                  "tablets-phones/accessories-apps",
+                                  "tablets-phones/tablets",
+                                  "tablets-phones/unlocked-phones",
+                                  "gaming/games",
+                                  "gaming/hardware",
+                                  "lifestyle-home/accessories-watches",
+                                  "lifestyle-home/automotive",
+                                  "lifestyle-home/clothing-shoes",
+                                  "lifestyle-home/entertainment",
+                                  "lifestyle-home/gadgets-novelty",
+                                  "lifestyle-home/health-fitness",
+                                  "lifestyle-home/home-outdoors",
+                                  "lifestyle-home/home-improvement-tools-garden"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.CategoryList.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
-        self.navigationController?.isNavigationBarHidden = true
         self.CategoryList.dataSource = self
         self.CategoryList.delegate = self
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.isNavigationBarHidden = true
     }
     
     override func didReceiveMemoryWarning() {
@@ -60,7 +63,7 @@ class DealCategoryController: UIViewController, UITableViewDelegate, UITableView
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell")! as UITableViewCell
-        cell.textLabel?.text = categoryList[indexPath.row]
+        cell.textLabel?.text = categoryList[indexPath.row].components(separatedBy: "/")[1]
         return cell
     }
     
@@ -70,7 +73,9 @@ class DealCategoryController: UIViewController, UITableViewDelegate, UITableView
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destSeque = segue.destination as! DealListController
-        destSeque.category = categoryList[currentIndex]
+        destSeque.identifier = true
+        destSeque.category = categoryList[currentIndex].components(separatedBy: "/")[0]
+        destSeque.subCategory = categoryList[currentIndex].components(separatedBy: "/")[1]
     }
     
 }

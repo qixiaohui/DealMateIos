@@ -1,0 +1,6 @@
+framework module Pods_DealMateIos {
+  umbrella header "Pods-DealMateIos-umbrella.h"
+
+  export *
+  module * { export * }
+}
