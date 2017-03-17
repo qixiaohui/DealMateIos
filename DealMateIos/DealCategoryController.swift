@@ -57,13 +57,13 @@ class DealCategoryController: UIViewController, UITableViewDelegate, UITableView
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         currentIndex = indexPath.row
         performSegue(withIdentifier: "DealList", sender: nil)
-        print(indexPath.row)
     }
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell")! as UITableViewCell
         cell.textLabel?.text = categoryList[indexPath.row].components(separatedBy: "/")[1]
+        cell.accessoryType = .disclosureIndicator
         return cell
     }
     

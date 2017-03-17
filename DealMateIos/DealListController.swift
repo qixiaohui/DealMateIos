@@ -35,6 +35,7 @@ class DealListController: UIViewController, UITableViewDataSource, UITableViewDe
         self.DealListTableView.rowHeight = UITableViewAutomaticDimension
         self.DealListTableView.estimatedRowHeight = 275
         self.DealListTableView.register(DealListRowTableViewCell.self, forCellReuseIdentifier: "cell")
+        self.title = category
         if(identifier == true) {
             self.getDeal()
         } else {
@@ -48,6 +49,10 @@ class DealListController: UIViewController, UITableViewDataSource, UITableViewDe
     
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.isNavigationBarHidden = false
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

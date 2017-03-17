@@ -40,6 +40,10 @@ class DealDetailController: UIViewController, UIWebViewDelegate {
         self.navigationController?.isNavigationBarHidden = false
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     func getDeal(id: Int) {
         Alamofire.request("http://192.241.203.172:8000/detail/"+String(id), method: .get).validate().responseJSON { response in
             switch(response.result) {
